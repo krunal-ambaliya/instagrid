@@ -148,7 +148,7 @@ body {
 .grid-item {
   aspect-ratio: 1;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -442,4 +442,5 @@ body {
     .spinner {
         animation: none;
     }
+
 }
